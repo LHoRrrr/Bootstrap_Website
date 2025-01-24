@@ -1,0 +1,46 @@
+.bg-custom{
+  background-color: #adb5bd;
+}
+.text-color-header, a{
+  color: #E0E0E0;
+}
+.btn-color{
+  background-color: #495057;
+  color:#E0E0E0;
+}
+.btn-color:hover{
+  background-color: #E0E0E0;
+  color:#495057;
+}
+a {
+  text-decoration: none;
+}
+body{
+  background-color: #e9eaec;
+}
+.bg-about{
+  background-image: url('../image/aboutusimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 600px;
+  min-width: auto;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.border{
+  border-radius: 5px;
+  background-color: white;
+}
+
+.image{
+  object-fit: cover;
+}
+iframe{
+  border-radius: 10px;
+}
+

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Computer Store- Shop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar sticky-top navbar-expand-lg  p-3 bg-custom ">
+        <div class="container">
+            <a class="navbar-brand fs-2 text-bold text-uppercase text-light" href="#">My Computer Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fs-5 mx-5 text-color-header " id="navbarNav">
+                <ul class="navbar-nav mx-auto text-color-header">
+                    <li class="nav-item text-color-header">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 p-2 fs-5 text-color-header" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light fs-5" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container-fluid text-center bg-custom p-5 ">
+        <h1 class="display-4 text-light fw-bold text-uppercase">here is all our product</h1>
+        <p class="lead text-uppercase text-light">our product has good qualiy and better price.</p>
+    </div>
+
+         <!-- Main Content -->
+    <div class="container my-5 pt-5">
+      <div class="row">
+        <!-- Filters Section -->
+          <aside class="col-md-3  p-3 border">
+              <h5 class="mb-3">Filters</h5>
+              <form>
+                  <div class="mb-3">
+                      <label for="categoryFilter" class="form-label">Category</label>
+                      <select id="categoryFilter" class="form-select">
+                          <option selected>All Categories</option>
+                          <option>Apple</option>
+                          <option>Asus</option>
+                          <option>Dell</option>
+                          <option>Acer</option>
+                      </select>
+                  </div>
+                  <div class="mb-3">
+                      <label for="priceRange" class="form-label">Price Range</label>
+                      <input type="range" class="form-range" id="priceRange" min="0" max="500">
+                      <div class="d-flex justify-content-between">
+                          <span>$0</span>
+                          <span>$500</span>
+                      </div>
+                  </div>
+                  <div class="mb-3">
+                      <button type="submit" class="btn btn-primary w-100">Apply Filters</button>
+                  </div>
+              </form>
+          </aside>
+
+          <!-- Product Cards -->
+          <div class="col-md-9">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                      <div class="card h-100">
+                          <img src="image/macbook air 2024 m3.jpg" width="150px" class="card-img-top p-3" alt="Macbook Air 2024">
+                          <div class="card-body">
+                              <h5 class="card-title text-uppercase">Macbook Air 2024</h5>
+                              <p class="card-text">The 2024 MacBook Air, released on March 8, 2024, is available in only sizes: 13-inch</p>
+                              <p class="text-primary fw-bold">$1299.99</p>
+                              <a href="#" class="btn btn-success">Add to Cart</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card h-100">
+                        <img src="image/macbook air 2022 m2.jpg" width="150px" class="card-img-top p-3" alt="Product 2">
+                          <div class="card-body">
+                              <h5 class="card-title text-uppercase">Macbook Air 2022</h5>
+                              <p class="card-text">The 2022 MacBook Air, released on July 15, 2022, is available in only one size: 13-inch.</p>
+                              <p class="text-primary fw-bold">1199.99</p>
+                              <a href="#" class="btn btn-success">Add to Cart</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card h-100">
+                        <img src="image/macbook air 2020 m1.png" width="150px" class="card-img-top p-3" alt="Macbook Air 2020">
+                          <div class="card-body">
+                              <h5 class="card-title text-uppercase">Macbook Air 2020</h5>
+                              <p class="card-text">The 2020 MacBook Air, released on November 2020, is available in only one size: 13.3-inch.</p>
+                              <p class="text-primary fw-bold">$599.99</p>
+                              <a href="#" class="btn btn-success">Add to Cart</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                        <img src="image/macbookpro2021.png" width="150px" class="card-img-top" alt="Macbook pro 2021">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Macbook Pro 2021</h5>
+                            <p class="card-text">The 2021 MacBook Pro, released in October 2021, is available in only one size: 14-inch.</p>
+                            <p class="text-primary fw-bold">$1099.99</p>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="image/macbookpro2023.webp" width="150px" class="card-img-top p-3" alt="macbook pro 2023">
+                      <div class="card-body">
+                          <h5 class="card-title text-uppercase">Macbook Pro 2023</h5>
+                          <p class="card-text">The 2023 MacBook Pro, released on October 30, 2023, is available in 14-inch and 16-inch models</p>
+                          <p class="text-primary fw-bold">$2499.99</p>
+                          <a href="#" class="btn btn-success">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                    <img src="image/macbookpro2024.webp" width="150px" class="card-img-top p-3" alt="Macbook pro 2024">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Macbook Pro 2024</h5>
+                        <p class="card-text">Apple's 2024 MacBook Pro, announced on October 30, 2024, introduces the M4 family of chips.</p>
+                        <p class="text-primary fw-bold">$2999.99</p>
+                        <a href="#" class="btn btn-success">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/Acer.jpg" width="150px" class="card-img-top p-3" alt="Product 3">
+                  <div class="card-body">
+                      <h5 class="card-title text-uppercase">Samsung Galaxy Book4</h5>
+                      <p class="card-text">The Samsung Galaxy Book4 series, launched in early 2024, available only size 16-inch</p>
+                      <p class="text-primary fw-bold">$1699.99</p>
+                      <a href="#" class="btn btn-success">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+                <img src="image/ASUS Zenbook 14 OLED (UX3405).jpg" width="150px" class="card-img-top p-3" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">ASUS Zenbook 14 OLED (UX3405)</h5>
+                    <p class="card-text">The ASUS Zenbook 14 OLED (UX3405) is a premium ultrabook designed for users seeking a blend of performance, portability, and visual excellence.</p>
+                    <p class="text-primary fw-bold">$999.99</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+                        <div class="col">
+                      <div class="card h-100">
+                        <img src="image/asuss.jpg" width="150px" class="card-img-top p-3" alt="Product 3">
+                          <div class="card-body">
+                              <h5 class="card-title text-uppercase">ASUS Zenbook 14 OLED (UX4405)</h5>
+                              <p class="card-text">The ASUS Zenbook 14 OLED (UX4405) is a premium ultrabook designed for users seeking a blend of performance, portability, and visual excellence.</p>
+                              <p class="text-primary fw-bold">$1199.99</p>
+                              <a href="#" class="btn btn-success">Add to Cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- Footer -->
+    <footer class="bg-custom text-light text-center p-3 fs-4">
+        <p>&copy; 2025 My Computer Store. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
